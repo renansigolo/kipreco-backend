@@ -1,0 +1,25 @@
+{
+  "name": "kipreco-backend",
+  "version": "1.0.0",
+  "description": "Ki Preço Back-End",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/renansigolo/kipreco-backend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/renansigolo/kipreco-backend/issues"
+  },
+  "homepage": "https://github.com/renansigolo/kipreco-backend#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.15.5",
+    "mongoose": "^4.11.13"
+  }
+}
