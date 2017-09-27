@@ -1,0 +1,60 @@
+git clone -> repositorio
+//clona todo o repositorio e inicializa o projeto git
+
+git status
+
+* Please tell me who you are.
+
+Run -> "fazer login com seu usuario do gitHub"
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+******************************************
+FRONT_END
+******************************************
+…or create a new repository on the command line
+
+echo "# kipreco-frontend" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/renansigolo/kipreco-frontend.git
+git push -u origin master
+
+…or push an existing repository from the command line
+
+git remote add origin https://github.com/renansigolo/kipreco-frontend.git
+git push -u origin master
+
+******************************************
+BACK_END
+******************************************
+…or create a new repository on the command line
+
+echo "# kipreco-backend" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/renansigolo/kipreco-backend.git
+git push -u origin master
+
+…or push an existing repository from the command line
+
+git remote add origin https://github.com/renansigolo/kipreco-backend.git
+git push -u origin master
+
+=========================================================================
+
+Para alterar a origin o comando é: 
+
+Instead of removing and re-adding, you can do this:
+
+git remote set-url origin git://new.url.here
+
+git remote remove origin
+
+git remote rm origin
