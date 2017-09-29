@@ -1,4 +1,5 @@
 // Import libs
+//test
 const express = require('express');
 const bodyParser = require('body-parser');
 const mongoose = require('mongoose');
@@ -34,4 +35,8 @@ app.post('/', (req, res) => {
 // Port config listen
 app.listen(3000, () => {
   console.log('Listening on port 3000!')
+<<<<<<< HEAD
 });
+=======
+});
+>>>>>>> 1a9c7d187d1704ba44ceb2897e8e4c11dfa78a4f
