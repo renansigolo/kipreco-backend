@@ -1,0 +1,11 @@
+myObj = {
+    "mercado":"Carrefour Express",
+    "endereço": "Alameda Santos, 1787 - Bela Vista, São Paulo - SP, 01407-200",
+    "produtos": [
+        { "nome":"Arroz longo fino Tipo 1 Camil", "preco_antigo":"14,32", "preco_novo":"9,32", "img":"url", "link_detalhe":"" },
+        { "nome":"Filé de peito de frango kg", "preco_antigo":"15,90", "preco_novo":"11,90", "img":"url", "link_detalhe":"" },
+        { "nome":"Arroz Agulinha Camil Tipo 1", "preco_antigo":"14,32", "preco_novo":"9,32", "img":"url", "link_detalhe":"" },
+		{ "nome":"Arroz Agulinha Camil Tipo 1", "preco_antigo":"14,32", "preco_novo":"9,32", "img":"url", "link_detalhe":"" },
+		{ "nome":"Arroz Agulinha Camil Tipo 1", "preco_antigo":"14,32", "preco_novo":"9,32", "img":"url", "link_detalhe":"" },
+    ]
+ }
